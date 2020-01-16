@@ -41,6 +41,18 @@
     1. BS会给出什么样的售价
     2. UE会给出什么样的售价
 
+## 1/15提出的改进模型
+
+* 将D2D的过程分为多次CRG，每次的动作相同：
+  1. UE广播自己所拥有的layer和自己所需求的layer
+  2. 在获得周围一定范围的情况后，UE运用“同时进入餐厅、信息完全”的CRG模型，做出选择：售卖某个layer或是购买自己需要且还没有满足的layer。
+  3. UE之间通过D2D来完成layer的售卖和购买。
+* 该模型的问题：
+  * 每个UE都只知道周围UE的情况，根据周围用户的情况来套用CRG模型
+  * ![image-20200116132427725](C:\Users\Cheny\AppData\Roaming\Typora\typora-user-images\image-20200116132427725.png)
+  * CRG需要通过迭代来获得纳什均衡，然而此时每个UE参与的中国餐馆都不完全相同。<font color = blue>//如何证明迭代可以收敛呢</font>
+  * 即使可以通过迭代得到纳什均衡，但是每次迭代都需要UE广播动作，通讯开销巨大不现实。
+
 ## 参考
 
 [1]: Dynamic Chinese Restaurant Game: Theory and Application to Cognitive Radio Networks
