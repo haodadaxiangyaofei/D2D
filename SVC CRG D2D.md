@@ -25,7 +25,7 @@
 
 1. BS使用AMC进行广播，UE和BS的距离不同，收到的layer数也不同。下图是三圈、三层的例子
 
-   <img src="C:\Users\Cheny\AppData\Roaming\Typora\typora-user-images\image-20200117131627326.png" alt="image-20200117131627326" style="zoom: 67%;" />
+   <img src="https://s2.ax1x.com/2020/02/09/1flDVU.png" alt="1flDVU.png" style="zoom:67%;" />
 
 2. UE之间通过D2D的方式来满足自身对视频质量(layer)的需求。将整个过程分成几轮的中国餐馆博弈来进行，每轮中的动作是一致的：
    1. 各UE将已经拥有的layer，自己仍然欠缺的layer，自己的地理位置报告给BS
