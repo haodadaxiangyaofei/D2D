@@ -8,8 +8,6 @@
 | $$u_i,i\in\{1,2,\dots,U\} $$                         | UE i                               | customer                                   |
 | $$w_i, i\in \{1,2,\dots,U\},w_i\in \{1,2,\dots,L\}$$ | UE i所期望的最高layer              |                                            |
 | $$v_i,i\in \{1,2,\dots,U\},v_i\in \{1,2,\dots,L\}$$  | UE i实际收到的最高layer            |                                            |
-| $$\theta$$                                           | layer state                        | restaurant state                           |
-| $$\{R_1(\theta),R_2(\theta),\dots,R_L(\theta)\}$$    | layer size function                | table size function                        |
 | $$ R_i $$                                            | size of layer i                    | size of table i                            |
 | $$x_i,i\in\{1,\dots,U\},x_i\in\{1,\dots,L\}$$        | UE i choose layer $$x_i$$ to relay | customer choose one table to sit           |
 | $$n_{x_i}$$                                          | 选择layer $$x_i$$进行中继的UE数量  | no. of customer choose to sit on the table |
